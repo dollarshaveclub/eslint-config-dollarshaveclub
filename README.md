@@ -1,4 +1,4 @@
-# eslint-config-dollarshaveclub
+# eslint-config-dollarshaveclub https://travis-ci.org/dollarshaveclub/eslint-config-dollarshaveclub.svg?branch=master
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for Dollar Shave Club.
 

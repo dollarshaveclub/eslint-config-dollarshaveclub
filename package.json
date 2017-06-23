@@ -1,10 +1,20 @@
 {
-  "name": "y",
-  "version": "3.0.0",
+  "name": "eslint-config-dollarshaveclub",
+  "version": "1.0.0",
   "description": "Base eslint configs for Dollar Shave Club.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./tests/run.sh"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-dollarshaveclub": "dollarshaveclub/eslint-plugin-dollarshaveclub#standard",
+    "eslint-plugin-import": "^2.5.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
   },
   "repository": {
     "type": "git",
