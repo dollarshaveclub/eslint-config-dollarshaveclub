@@ -1,0 +1,19 @@
+{
+  "name": "y",
+  "version": "3.0.0",
+  "description": "Base eslint configs for Dollar Shave Club.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briangonzalez/eslint-config-dollarshaveclub.git"
+  },
+  "author": "Brian Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briangonzalez/eslint-config-dollarshaveclub/issues"
+  },
+  "homepage": "https://github.com/briangonzalez/eslint-config-dollarshaveclub#readme"
+}
