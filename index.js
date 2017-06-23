@@ -1,6 +1,9 @@
 'use strict'
 
 module.exports = {
+  plugins: [
+    'dollarshaveclub',
+  ],
   extends: [
     'standard',
   ],
