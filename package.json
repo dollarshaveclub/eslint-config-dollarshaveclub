@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dollarshaveclub",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Base eslint configs for Dollar Shave Club.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,6 @@
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
     "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-dollarshaveclub": "dollarshaveclub/eslint-plugin-dollarshaveclub#standard",
     "eslint-plugin-import": "^2.5.0",
     "eslint-plugin-node": "^5.0.0",
     "eslint-plugin-promise": "^3.5.0",
@@ -25,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/briangonzalez/eslint-config-dollarshaveclub/issues"
   },
-  "homepage": "https://github.com/briangonzalez/eslint-config-dollarshaveclub#readme"
+  "homepage": "https://github.com/briangonzalez/eslint-config-dollarshaveclub#readme",
+  "devDependencies": {
+    "eslint-plugin-ember": "^3.4.1"
+  }
 }
