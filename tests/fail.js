@@ -1,5 +1,5 @@
 
-const noSemiColons = 'please';
+const noSemiColons = 'please'
 
 const mixin1 = {}
 const mixin2 = {}
