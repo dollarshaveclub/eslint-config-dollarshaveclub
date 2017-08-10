@@ -4,16 +4,18 @@
   "description": "Base eslint configs for Dollar Shave Club.",
   "main": "index.js",
   "scripts": {
-    "test": "./tests/run.sh"
+    "test": "./tests/run.sh",
+    "eslint": "eslint . --fix --cache",
+    "eslint:ci": "eslint ."
   },
   "dependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
     "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-ember": "^3.4.1",
     "eslint-plugin-import": "^2.5.0",
     "eslint-plugin-node": "^5.0.0",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-ember": "^3.4.1",
     "eslint-plugin-standard": "^3.0.1"
   },
   "repository": {
