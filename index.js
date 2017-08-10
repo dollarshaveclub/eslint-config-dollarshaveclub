@@ -42,5 +42,10 @@ module.exports = {
         'ember/use-ember-get-and-set': 1,
       },
     },
+    react: {
+      extends: [
+        'standard-react'
+      ]
+    }
   },
 }
