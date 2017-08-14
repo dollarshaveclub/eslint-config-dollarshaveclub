@@ -4,7 +4,7 @@
   "description": "Base eslint configs for Dollar Shave Club.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/index.js",
+    "test": "mocha tests/index.js --timeout 10s",
     "eslint": "eslint . --fix --cache",
     "eslint:ci": "eslint ."
   },
