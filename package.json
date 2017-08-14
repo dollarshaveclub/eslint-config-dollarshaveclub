@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint": "^4.4.1",
+    "eslint": "^3.19.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-config-standard-react": "^5.0.0",
     "eslint-plugin-ember": "^4.2.0",
