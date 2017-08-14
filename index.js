@@ -2,9 +2,6 @@
 
 module.exports = {
   parser: 'babel-eslint',
-  plugins: [
-    'ember',
-  ],
   extends: [
     'standard',
   ],

@@ -4,8 +4,14 @@ module.exports = {
   extends: [
     require.resolve('./')
   ],
+  plugins: [
+    'ember',
+  ],
   rules: {
-    'no-underscore-dangle': [2, { allow: ['_super'] }],
+    'no-underscore-dangle': [2, { allow: [
+      '_super',
+      '__container__',
+    ]}],
     'consistent-return': 0,
     'ember/local-modules': 1,
     'ember/closure-actions': 1,
