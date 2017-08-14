@@ -6,13 +6,15 @@
 ## Installation
 
 ```
-$ npm install --save-dev eslint eslint-config-dollarshaveclub
+$ npm install --save-dev eslint@3 eslint-config-dollarshaveclub
 ```
 
 
 ## Usage
 
-Once the `eslint-config-dollarshaveclub` package is installed, you can use it by specifying `dollarshaveclub` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
+Once the `eslint-config-dollarshaveclub` package is installed, you can use it by specifying `dollarshaveclub`, `dollarshaveclub/ember`, or `dollarshaveclub/react` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
+
+For frameworkless JS modules:
 
 ```js
 {
@@ -23,6 +25,21 @@ Once the `eslint-config-dollarshaveclub` package is installed, you can use it by
 }
 ```
 
+For Ember projects:
+
+```js
+{
+  "extends": "dollarshaveclub/ember"
+}
+```
+
+For React projects:
+
+```js
+{
+  "extends": "dollarshaveclub/react"
+}
+```
 
 ## License
 

@@ -1,6 +1,7 @@
 'use strict'
 
 module.exports = {
+  parser: 'babel-eslint',
   plugins: [
     'ember',
   ],
@@ -21,26 +22,5 @@ module.exports = {
     'no-multi-assign': 0,
     'no-underscore-dangle': 0,
     'quotes': 0,
-  },
-  configs: {
-    parserOptions: {
-      ecmaVersion: 7,
-      sourceType: 'module',
-      ecmaFeatures: {
-        experimentalObjectRestSpread: true,
-        modules: true,
-      },
-    },
-    ember: {
-      rules: {
-        'no-underscore-dangle': [2, { allow: ['_super'] }],
-        'consistent-return': 0,
-        'ember/local-modules': 1,
-        'ember/closure-actions': 1,
-        'ember/no-side-effects': 1,
-        'ember/no-observers': 1,
-        'ember/use-ember-get-and-set': 1,
-      },
-    },
   },
 }
