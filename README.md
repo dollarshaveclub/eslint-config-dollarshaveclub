@@ -1,6 +1,4 @@
-# eslint-config-dollarshaveclub [![Build Status](https://travis-ci.org/dollarshaveclub/eslint-config-dollarshaveclub.svg?branch=master)](https://travis-ci.org/dollarshaveclub/eslint-config-dollarshaveclub)
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/dollarshaveclub/eslint-config-dollarshaveclub.svg)](https://greenkeeper.io/)
+# eslint-config-dollarshaveclub [![Build Status](https://travis-ci.org/dollarshaveclub/eslint-config-dollarshaveclub.svg?branch=master)](https://travis-ci.org/dollarshaveclub/eslint-config-dollarshaveclub) [![Greenkeeper badge](https://badges.greenkeeper.io/dollarshaveclub/eslint-config-dollarshaveclub.svg)](https://greenkeeper.io/)
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for Dollar Shave Club.
 
