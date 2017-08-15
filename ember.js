@@ -17,6 +17,6 @@ module.exports = {
     'ember/closure-actions': 1,
     'ember/no-side-effects': 1,
     'ember/no-observers': 1,
-    'ember/use-ember-get-and-set': 1,
+    'ember/use-ember-get-and-set': 0,
   },
 }
