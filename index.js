@@ -12,7 +12,7 @@ module.exports = {
     'import/prefer-default-export': 0,
     'no-plusplus': 0,
     'no-restricted-syntax': 0,
-    'comma-dangle': [0, 'always-multiline'],
+    'comma-dangle': [2, 'always-multiline'],
     'camelcase': 0,
     'func-names': 1,
     'no-await-in-loop': 0,
