@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dollarshaveclub",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Base eslint configs for Dollar Shave Club.",
   "main": "index.js",
   "scripts": {
