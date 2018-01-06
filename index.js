@@ -20,5 +20,6 @@ module.exports = {
     'no-multi-assign': 0,
     'no-underscore-dangle': 0,
     'quotes': 0,
+    'no-console': 2,
   },
 }
