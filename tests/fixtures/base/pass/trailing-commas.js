@@ -15,7 +15,7 @@ const z = {
 
 const zz = { r: 5 }
 
-console.log(x)
-console.log(y)
-console.log(z)
-console.log(zz)
+console.warn(x)
+console.warn(y)
+console.warn(z)
+console.warn(zz)
