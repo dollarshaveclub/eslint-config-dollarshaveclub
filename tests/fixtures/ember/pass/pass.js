@@ -10,9 +10,9 @@ let x = 2
 x = 3
 
 if (x === 3) {
-  console.log('foo')
+  console.warn('foo')
 } else if (x === 2) {
-  console.log('bar')
+  console.warn('bar')
 } else if (multiLineArray === singleLineArray) {
-  console.log('baz')
+  console.warn('baz')
 }

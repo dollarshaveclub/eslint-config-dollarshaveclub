@@ -12,7 +12,7 @@ module.exports = {
     'import/prefer-default-export': 0,
     'no-plusplus': 0,
     'no-restricted-syntax': 0,
-    'prefer-const': ["error", { "destructuring": "any", "ignoreReadBeforeAssign": true }],
+    'prefer-const': ['error', { 'destructuring': 'any', 'ignoreReadBeforeAssign': true }],
     'comma-dangle': [2, 'always-multiline'],
     'camelcase': 0,
     'func-names': 1,
@@ -20,5 +20,6 @@ module.exports = {
     'no-multi-assign': 0,
     'no-underscore-dangle': 0,
     'quotes': 0,
+    'no-console': ['error', { 'allow': ['warn', 'error']}],
   },
 }

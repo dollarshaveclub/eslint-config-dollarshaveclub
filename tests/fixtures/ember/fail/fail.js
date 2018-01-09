@@ -9,11 +9,11 @@ const multiLineArrayFirstBracket = [
 let x = 2
 
 if (x === 3) {
-  console.log('foo')
+  console.warn('foo')
 } else if (multiLineArrayFirstBracket === multiLineArrayLastBracket) {
-  console.log('bar')
+  console.warn('bar')
 } else {
   if (x === 2) {
-    console.log('baz')
+    console.warn('baz')
   }
 }
