@@ -7,4 +7,7 @@ const trailingCommasPlease = [
   3
 ]
 
+let shouldbeConst = 'shouldbeConst'
+
 console.log(trailingCommasPlease)
+console.log(shouldbeConst)

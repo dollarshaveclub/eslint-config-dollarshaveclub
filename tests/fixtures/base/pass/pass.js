@@ -13,11 +13,15 @@ console.log(trailingCommasPlease)
 {
   async function foo () {
     const myArray = [1, 2, 3]
-    for (let somePromise of myArray) {
-      let nonPromise = await somePromise
+    for (const somePromise of myArray) {
+      const nonPromise = await somePromise
       console.log(nonPromise)
     }
   }
 
   foo()
 }
+
+let shouldBeLet = 'shouldBeLet'
+shouldBeLet = 'is let'
+console.log(shouldBeLet)
