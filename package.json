@@ -42,6 +42,6 @@
   "homepage": "https://github.com/briangonzalez/eslint-config-dollarshaveclub#readme",
   "devDependencies": {
     "globby": "^6.1.0",
-    "mocha": "^3.5.0"
+    "mocha": "^4.0.0"
   }
 }
