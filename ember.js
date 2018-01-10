@@ -12,7 +12,7 @@ module.exports = {
       '_super',
       '__container__',
     ]}],
-    'consistent-return': 1,
+    'consistent-return': 0,
     'no-lonely-if': 2,
     'array-bracket-newline': ['error', { 'multiline': true }],
     'ember/local-modules': 1,
