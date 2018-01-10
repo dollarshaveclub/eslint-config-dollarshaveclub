@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dollarshaveclub",
-  "version": "2.3.0",
+  "version": "3.0.0",
   "description": "Base eslint configs for Dollar Shave Club.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "eslint:ci": "eslint ."
   },
   "dependencies": {
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^8.0.0",
     "eslint": "^4.7.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-config-standard-react": "^5.0.0",
@@ -41,7 +41,7 @@
   },
   "homepage": "https://github.com/briangonzalez/eslint-config-dollarshaveclub#readme",
   "devDependencies": {
-    "globby": "^6.1.0",
-    "mocha": "^3.5.0"
+    "globby": "^7.0.0",
+    "mocha": "^4.0.0"
   }
 }

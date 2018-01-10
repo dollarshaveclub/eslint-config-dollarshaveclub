@@ -14,7 +14,6 @@ module.exports = {
     ]}],
     'consistent-return': 1,
     'no-lonely-if': 2,
-    'prefer-const': 2,
     'array-bracket-newline': ['error', { 'multiline': true }],
     'ember/local-modules': 1,
     'ember/closure-actions': 1,

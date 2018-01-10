@@ -1,6 +1,6 @@
 
 const noSemiColons = 'please'
-console.log(noSemiColons)
+console.warn(noSemiColons)
 
 const trailingCommasPlease = [
   1,
@@ -8,16 +8,20 @@ const trailingCommasPlease = [
   3,
 ]
 
-console.log(trailingCommasPlease)
+console.warn(trailingCommasPlease)
 
 {
   async function foo () {
     const myArray = [1, 2, 3]
-    for (let somePromise of myArray) {
-      let nonPromise = await somePromise
-      console.log(nonPromise)
+    for (const somePromise of myArray) {
+      const nonPromise = await somePromise
+      console.warn(nonPromise)
     }
   }
 
   foo()
 }
+
+let shouldBeLet = 'shouldBeLet'
+shouldBeLet = 'is let'
+console.warn(shouldBeLet)
