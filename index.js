@@ -19,7 +19,7 @@ module.exports = {
     'no-await-in-loop': 0,
     'no-multi-assign': 0,
     'no-underscore-dangle': 0,
-    'quotes': 0,
+    'quotes': ['error', 'single'],
     'no-console': ['error', { 'allow': ['warn', 'error']}],
   },
 }
