@@ -10,6 +10,7 @@ module.exports = {
     'import/no-unresolved': 0,
     'import/extensions': 0,
     'import/prefer-default-export': 0,
+    'indent': ['warn', 2],
     'no-plusplus': 0,
     'no-restricted-syntax': 0,
     'prefer-const': ['error', { 'destructuring': 'any', 'ignoreReadBeforeAssign': true }],
