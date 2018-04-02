@@ -4,6 +4,7 @@ module.exports = {
   extends: [
     require.resolve('./'),
   ],
+  root: true,
   plugins: [
     'ember',
   ],
