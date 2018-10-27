@@ -9,7 +9,7 @@
     "eslint:ci": "eslint index.js ember.js react.js"
   },
   "dependencies": {
-    "babel-eslint": "^8.0.2",
+    "babel-eslint": "^9.0.0",
     "eslint": "^5.0.0",
     "eslint-config-standard": "^11.0.0",
     "eslint-config-standard-react": "^6.0.0",
