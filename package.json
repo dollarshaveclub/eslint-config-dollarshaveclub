@@ -15,7 +15,7 @@
     "eslint-plugin-ember": "^6.1.0",
     "eslint-config-standard-react": "^7.0.2",
     "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
     "eslint-plugin-node": "^8.0.0",
     "eslint-plugin-promise": "^4.0.0",
     "eslint-plugin-react": "^7.2.1",
